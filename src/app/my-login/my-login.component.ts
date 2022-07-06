@@ -45,9 +45,6 @@ export class MyLoginComponent implements OnInit {
           this.interviewerForm.reset()
           this.fbServ.interviewerData = ele;
         }
-        else{
-          alert("Please Enter valid email and password");
-        }
       })
 
       localStorage.setItem("interviewerData",this.logUser)
@@ -69,8 +66,6 @@ export class MyLoginComponent implements OnInit {
            this.router.navigate(["recruiter"])
             this.interviewerForm.reset()
           
-        }else{
-          alert("Please Enter valid email and password")
         }
 
       })
