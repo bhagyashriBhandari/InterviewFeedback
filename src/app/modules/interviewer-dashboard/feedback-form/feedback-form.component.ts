@@ -28,6 +28,8 @@ export class FeedbackFormComponent implements OnInit {
       "reactAngular": new FormControl('', [Validators.required]),
       "technical": new FormControl('', [Validators.required]),
       "communication": new FormControl('', [Validators.required]),
+      "result": new FormControl('', [Validators.required]),
+      "comments": new FormControl('', [Validators.required]),
     });
 
   }
